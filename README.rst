@@ -29,7 +29,7 @@ Installing mzmatch.R package
 
   install.packages ("remotes")
   Sys.setenv(R_REMOTES_NO_ERRORS_FROM_WARNINGS="true")
-  remotes::install_github("https://github.com/andzajan/mzmatch.R.git",
+  remotes::install_github("https://github.com/UoMMIB/mzmatch.R.git",
   build_opts=c("--no-multiarch"), INSTALL_opts=c("--no-test-load"))
 
 Installing mzmatch java libraries
